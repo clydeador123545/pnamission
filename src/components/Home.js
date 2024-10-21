@@ -18,7 +18,7 @@ function Home(){
 
     return (
 
-        <div>
+        <div className='home-container'>
             <img src={PnaLogo} className="pna-logo"></img>
             <div className='image-background'
             style={{

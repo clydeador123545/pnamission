@@ -23,8 +23,8 @@ const About = (() => {
                 height: '3000px'
             }}
         >   
-            <img class="pna-logo" src="../images/pna-logo.png"></img>
-            <div class="image-background"
+            <img className="pna-logo" src="../images/pna-logo.png"></img>
+            <div className="image-background"
                 // style="
                 //     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.39)), url('../images/about.jpg');
                 //     z-index: 100;
@@ -32,40 +32,41 @@ const About = (() => {
 
                 style={{
                     backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.39)), url(https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/461875142_122140464188318427_735612671899897193_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHu0w9JjINBeUUbwS7c0cr8I-Lmm2TJJEsj4uabZMkkS2o65JKSjQYHU1-Ay5dV-3Eb94nivZppgr1ZTxgYo-AC&_nc_ohc=Syc1x_kkqJ4Q7kNvgGSk3f9&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=AsckaD_cgNTP3O_m-hn9FLi&oh=00_AYCZYKamSn8Wkhzfcuz1fFTYztALLYwmXH59Mqu4PJnWaQ&oe=671C078E)`,
-                    backgroundPosition: 'center center, center bottom -200px',
+                    backgroundPosition: 'center center,center center -200px',
+                
                     zIndex: 100,
                 }}
             >
             
             </div>
 
-            <div class="m-v-container">
-                <div class="mission-container">
-                    <p class="title">MISSION</p>
-                    <div class="content-container">
-                        <p class="text">
+            <div className="m-v-container">
+                <div className="mission-container">
+                    <p className="title">MISSION</p>
+                    <div className="content-container">
+                        <p className="text">
                             "PNA Misyonero is a group of youth leaders and volunteers of Puso ng Ama Foundation, Inc. serving the Lord Jesus and touched by Him through their experiences in ministry."
                         </p>
                         <img src={missionLogo}></img>
                     </div>
                 </div>
             
-                <div class="vision-container">
-                    <p class="title">VISION</p>
+                <div className="vision-container">
+                    <p className="title">VISION</p>
                     <div>
                         
-                        <p class="text">
+                        <p className="text">
                             We desire to empower other people especially to the poor to exercise their Catholic faith and become their lifestyle; to pursue a life for the The Lord as acknowledgement of His love; and to reach out to the other places to spread The Good news.
                         </p>
                         <img src={visionLogo}></img>
                     </div>
                 </div>
 
-                <div class="values-container">
-                    <p class="title">VALUES</p>
+                <div className="values-container">
+                    <p className="title">VALUES</p>
                     <div>
                         
-                        <p class="text">
+                        <p className="text">
                         Our values are rooted in faith, compassion, and service, as we strive to embody Christ’s love by uplifting the marginalized, empowering communities, and fostering a spirit of unity and selflessness in all we do.
                         </p>
                         <img src={valuesLogo}></img>
@@ -81,9 +82,9 @@ const About = (() => {
 
             
 
-            <div class="who-are-we-container">
-                <div class="container">
-                    <p class="title">WHO WE ARE</p>
+            <div className="who-are-we-container">
+                <div className="container">
+                    <p className="title">WHO WE ARE</p>
                 
                     <p>
                         Our goals...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

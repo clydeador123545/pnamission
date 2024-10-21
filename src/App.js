@@ -17,7 +17,7 @@ function App() {
   return (
     
     <Router>
-      <body>
+      <div>
           
 
           <Header/>
@@ -28,7 +28,7 @@ function App() {
             <Route path="/pnamission" element={<Home/>}/>
           </Routes>
             
-        </body>
+        </div>
     </Router>
     
 

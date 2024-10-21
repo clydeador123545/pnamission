@@ -3,10 +3,10 @@ import '../styles/record.css'
 
 function DonationRec(){
     return(
-        <div class="donation-record-container">
-            <p class="title">Donation's Record</p>
-            <div class="donation-container">
-                <div class="title-container"
+        <div className="donation-record-container">
+            <p className="title">Donation's Record</p>
+            <div className="donation-container">
+                <div className="title-container"
                     
                     style={{
                         display: 'flex',
@@ -14,12 +14,12 @@ function DonationRec(){
                         alignItems:'center'
                     }}
                 >
-                    <img src={heartLogo} class="heart-logo"></img>
+                    <img src={heartLogo} className="heart-logo"></img>
                     <p>DONATION</p>
                 </div>
 
 
-                <div class="grid-container">
+                <div className="grid-container">
                     
                     <ul>
                         <li>Name</li>
@@ -31,15 +31,15 @@ function DonationRec(){
         
                     <ul>
                         <li>Anothony Doyle</li>
-                        <li class="date">09/27/2024</li>
-                        <li class="amount"><span style={{color: 'black', fontSize: '15px'}}>&#8369;</span>2000</li>
+                        <li className="date">09/27/2024</li>
+                        <li className="amount"><span style={{color: 'black', fontSize: '15px'}}>&#8369;</span>2000</li>
                         <li>Clyde Timothy Ador</li>
                         <li>clydeador27</li>
                     </ul> 
                     <ul>
                         <li>Clyde</li>
-                        <li class="date">09/27/2024</li>
-                        <li class="amount"><span style={{color: 'black', fontSize: '15px'}}>&#8369;</span>50</li>
+                        <li className="date">09/27/2024</li>
+                        <li className="amount"><span style={{color: 'black', fontSize: '15px'}}>&#8369;</span>50</li>
                         <li>Kia</li>
                         <li>example1234</li>
                     </ul> 
