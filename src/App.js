@@ -6,40 +6,49 @@ import AboutPage from './components/About';
 import './App.css'
 
 import Home from './components/Home';
-import React, {userState, useState} from 'react';
+import React, { useEffect, useState} from 'react';
 
 
 
 
 function App() {
 
-  const [showPage, setShowPage] = useState(true);
-  const handleLinkClick = () =>{
-    setShowPage(false);
-  }
+  
   return (
-    <Router>
-      <body>
-      
+    
 
-      <Header />
-      {showPage && <Home/>}
-      <Routes>
-        <Route path="/home" element={<Home onLinkClick={handleLinkClick}/>}/>
-        <Route path="/about" element={<AboutPage onLinkClick={handleLinkClick}/>}/>
-        <Route path="/" element={<Home onLinkClick={handleLinkClick}/>} />
-      </Routes>
+    <body>
+          
+
+      <Header/>
       
-      </body>
+      <Routes>
+        <Route path="/home" element={<Home />}/>
+        <Route path="/about" element={<AboutPage />}/>
+        <Route path="/pnamission" element={<Home/>}/>
+      </Routes>
+        
+    </body>
+
+    
+      
         
       
       
       
       
       
-    </Router>
+    
     
   );
 }
 
-export default App;
+export default function AppWrapped() {
+  return (
+    <Router>
+      <App />
+    </Router>
+  );
+};
+
+
