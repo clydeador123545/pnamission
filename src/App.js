@@ -16,19 +16,21 @@ function App() {
   
   return (
     
-
-    <body>
+    <Router>
+      <body>
           
 
-      <Header/>
-      
-      <Routes>
-        <Route path="/home" element={<Home />}/>
-        <Route path="/about" element={<AboutPage />}/>
-        <Route path="/pnamission" element={<Home/>}/>
-      </Routes>
-        
-    </body>
+          <Header/>
+          
+          <Routes>
+            <Route path="/home" element={<Home />}/>
+            <Route path="/about" element={<AboutPage />}/>
+            <Route path="/pnamission" element={<Home/>}/>
+          </Routes>
+            
+        </body>
+    </Router>
+    
 
     
       
@@ -43,12 +45,5 @@ function App() {
   );
 }
 
-export default function AppWrapped() {
-  return (
-    <Router>
-      <App />
-    </Router>
-  );
-};
-
+export default App;
 
