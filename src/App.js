@@ -6,18 +6,24 @@ import AboutPage from './components/About';
 import './App.css'
 
 import Home from './components/Home';
-
+import React, {userState, useState} from 'react';
 
 
 
 
 function App() {
+
+  const [showPage, setShowPage] = useState(true);
+  const handleLinkClick = () =>{
+    setShowPage(false);
+  }
   return (
     <Router>
       <body>
       
 
       <Header/>
+      <Home/>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<AboutPage/>}/>
