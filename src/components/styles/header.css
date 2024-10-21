@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    padding-left: 10%;
+ 
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex: 1;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 110px;
+    font-size: 15px;
+    font-family: inter;
+    font-style: italic;
+    border-radius: 20px;
+    background-color: white;
+    margin: 0 20px;
+    color: #EA4335;
+    cursor: pointer;
+}
+
+header ul .home{
+    margin-left: 0;
+}
+
+header ul a{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    color: #EA4335;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media (max-width: 600px) {
+    header{
+        height: 60px;
+        border-bottom: none;
+        justify-content: center;
+        padding-left: 0;
+        background-color: rgba(141, 140, 140, 0.58);
+    }
+
+    header ul li{
+        
+        
+        height: 0;
+        width: 0;
+        font-size: 12px;
+        font-family: inter;
+        font-style: italic;
+        border-radius: 20px;
+        background-color: white;
+        margin: 0 10px;
+        visibility: hidden;
+    }
+
+    header ul{
+        flex: 0;
+        max-width: 0;
+    }
+
+    header .navbar-container{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 3%;
+        gap: 10px;
+        margin: 0;
+    }
+    
+    header .navbar-container .navBar{
+        height: 3px;
+        background-color: white;
+        border-radius: 1.5px;
+        width: 40px;
+        z-index: 500;
+        margin: 0;
+    }
+
+   
+}
+
+
+
+/* navbar */
+
