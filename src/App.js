@@ -22,12 +22,12 @@ function App() {
       <body>
       
 
-      <Header/>
-      <Home/>
+      <Header />
+      {showPage && <Home/>}
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<AboutPage/>}/>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home onLinkClick={handleLinkClick}/>}/>
+        <Route path="/about" element={<AboutPage onLinkClick={handleLinkClick}/>}/>
+        <Route path="/" element={<Home onLinkClick={handleLinkClick}/>} />
       </Routes>
       
       </body>
