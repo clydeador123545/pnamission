@@ -37,6 +37,15 @@ header .button-holder li{
     margin: 0 20px;
     color: #EA4335;
     cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+header .button-holder li:hover{
+    opacity: 0.7;
+}
+
+header .button-holder li:active{
+    opacity: 0.5;
 }
 
 header .button-holder .home{
@@ -55,6 +64,17 @@ header .button-holder a{
 }
 
 
+header .navbar-container{
+    visibility: hidden;
+}
+
+
+header .navbar-container .buttons-container .home a,
+    header .navbar-container .buttons-container .about a,
+    header .navbar-container .buttons-container .contact a{
+        visibility: hidden;
+    }
+
 
 
 @media (max-width: 600px) {
@@ -67,8 +87,6 @@ header .button-holder a{
     }
 
     header .button-holder li{
-        
-        
         height: 0;
         width: 0;
         font-size: 12px;
@@ -77,7 +95,7 @@ header .button-holder a{
         border-radius: 20px;
         background-color: white;
         margin: 0 10px;
-        
+        visibility: hidden;
         
     }
 
@@ -98,7 +116,7 @@ header .button-holder a{
         gap: 10px;
 
         margin: 0;
-        
+        visibility: visible;
     }
     
     header .navbar-container .navBar{

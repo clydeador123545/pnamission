@@ -25,6 +25,8 @@
     display: flex;
     align-items: center;
     margin-top: 20px;
+    
+    width: 150%;
 }
 
 .image-background .pna-context .lower-section .bar-line{

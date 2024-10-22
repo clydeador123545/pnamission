@@ -11,6 +11,15 @@
     font-weight: bold;
     padding: 10px 15px;
     cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.image-background .pna-context .donate-button:hover{
+    padding: 20px 30px;
+}
+
+.image-background .pna-context .donate-button:active{
+    opacity: 0.7;
 }
 
 .image-background .pna-context .donate-button .heart-donate{

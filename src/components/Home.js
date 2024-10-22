@@ -40,7 +40,7 @@ function Home(){
         
                 <div className="lower-section">
                     <p className="bar-line"></p>
-                    <p>
+                    <p style={{fontSize: '18px', lineHeight: '1.5em'}}>
                         Your generous donations will help us bring essential support and resources to the Mangyan community in Mindoro. Through your kindness, we can provide food, educational materials, spiritual guidance, and much-needed services to uplift the lives of these indigenous people. Every contribution, big or small, makes a difference in spreading God’s love and empowering the Mangyans to build a better future. Thank you for your support in this mission of faith and compassion.
                     </p>
                 </div>

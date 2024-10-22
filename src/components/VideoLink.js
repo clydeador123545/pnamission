@@ -10,8 +10,7 @@ function VideoLink(){
                 className="video-facebook" 
                 style={{ border: 'none', overflow: 'hidden' }} 
                 scrolling="no" 
-                frameBorder="0" 
-                allowFullScreen={true}
+                frameBorder="0"
                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
                 allowFullScreen={true}
                 >
