@@ -17,3 +17,11 @@ p{
    font-size: 18px;
    font-family: Roboto;
 }
+
+@media screen {
+    p{
+        line-height: 1.5em;
+        font-size: 18px;
+        font-family: Roboto;
+     }
+}

@@ -30,7 +30,7 @@ const Header = () => {
             <ul className="button-holder">
                 <li className="home"><Link to='/home'>Home</Link></li>
                 <li className="about"><Link to='/about'>About us</Link></li>
-                <li className="contact"><Link to='contact'>Contact us</Link></li>
+                <li className="contact"><Link to='/contact'>Contact us</Link></li>
             </ul>
 
             <div className="navbar-container"

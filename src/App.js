@@ -6,6 +6,7 @@ import AboutPage from './components/About';
 import './App.css'
 
 import Home from './components/Home';
+import ContactUs from './components/ContactUs';
 import React, { useEffect, useState} from 'react';
 
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="/home" element={<Home />}/>
             <Route path="/about" element={<AboutPage />}/>
             <Route path="/pnamission" element={<Home/>}/>
+            <Route path="/contact" element={<ContactUs/>} />
           </Routes>
             
         </div>

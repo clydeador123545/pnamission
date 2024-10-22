@@ -4,7 +4,7 @@ import mangyan3 from '../images/mangyan3.jpg';
 
 function ThirdSection(){
     return(
-        <div className="third-section">
+        <div className="third-section" >
                 <p className="third-section-title">MISSIONS' STORY</p>
                 <div className="mission-first-sec-container">
                     <p className="context">
@@ -21,7 +21,7 @@ function ThirdSection(){
                     Velit hac habitant dolor potenti auctor enim facilisis molestie enim. Praesent augue ex quis ultrices in. Habitant vel dis tempus fusce turpis integer sapien consectetur posuere. Phasellus lacus arcu feugiat pulvinar senectus ipsum. Quisque vel pellentesque morbi; fermentum feugiat className montes semper. Feugiat tortor faucibus semper lacinia, ad primis.
                     Velit hac habitant dolor potenti auctor enim facilisis molestie enim. Praesent augue ex quis ultrices in. Habitant vel dis tempus fusce turpis integer sapien consectetur posuere. Phasellus lacus arcu feugiat pulvinar senectus ipsum. Quisque vel pellentesque morbi; fermentum feugiat className montes semper. Feugiat tortor faucibus semper lacinia, ad primis.
                 </p>
-            </div>
+        </div>
 
     );
 }

@@ -74,4 +74,42 @@
         font-size: 25px;
         font-weight: bold;
     }
+
+    .fourth-section{
+        width: 100%;
+        
+        overflow: hidden;
+    }
+
+    .fourth-section .fourth-v-txt-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:0px;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .fourth-section .fourth-v-txt-container .video-from-facebook{
+        width: 95%;
+    }
+
+
+    
+
+    .fourth-section .fourth-v-txt-container .content-container .title{
+        margin-top: -10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .fourth-section .fourth-v-txt-container .content-container .sub-title{
+        font-size: 15px;
+        color: rgb(8, 50, 166);
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    
 }

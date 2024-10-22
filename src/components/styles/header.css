@@ -5,6 +5,7 @@
 header{
     display: flex;
     align-items: center;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -65,15 +66,16 @@ header .button-holder a{
 
 
 header .navbar-container{
-    visibility: hidden;
+    visibility:hidden;
+    
 }
 
 
 header .navbar-container .buttons-container .home a,
-    header .navbar-container .buttons-container .about a,
-    header .navbar-container .buttons-container .contact a{
-        visibility: hidden;
-    }
+header .navbar-container .buttons-container .about a,
+header .navbar-container .buttons-container .contact a{
+    visibility:hidden;
+}
 
 
 

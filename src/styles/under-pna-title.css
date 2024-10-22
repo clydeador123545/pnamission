@@ -6,6 +6,10 @@
     color: white;
 }
 
+@media (max-width) {
+    
+}
+
 .image-background .pna-context .title{
     
     margin-bottom: 0;
@@ -57,10 +61,14 @@
     .image-background .pna-context .sub-title{
         font-size: 12px;
     }
+
+    .image-background .pna-context .lower-section{
+        width: 100%;
+    }
     
     .image-background .pna-context .lower-section p{
         font-size: 12px;
     }
-
+    
     
 }

@@ -8,7 +8,7 @@ function SecondSection(){
     return(
 
         <div className="sections-container">
-            <div className="second-section">
+            <div className="second-section" >
                 <p className="second-section-title">Who are the Mangyans?</p>
         
                 <p className="context">

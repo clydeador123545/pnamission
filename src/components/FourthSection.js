@@ -22,6 +22,7 @@ function FourthSection(){
                     </p>
                 </div>
                 <iframe 
+                    className='video-from-facebook'
                     src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F61559552822147%2Fvideos%2F531577509511705%2F&show_text=false&width=476&t=0" 
                     width="700" 
                     height="700" 
