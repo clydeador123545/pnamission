@@ -20,20 +20,22 @@
    
 }
 
-.title{
+.m-v-container .title{
     color: red;
     font-size: 40px;
     font-family: Roboto;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 /* mission vission  */
 .m-v-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 900px;
+    width: 100%;
     background-color: white;
     margin-top: 75px;
 }
@@ -41,14 +43,16 @@
 .m-v-container .mission-container,
 .m-v-container .vision-container,
 .m-v-container .values-container{
-    flex: 1;
-    max-width: 400px;
-    height: 647.4;
+    margin: 0 50px;
+    max-width: 300px;
+    height: 400px;
+    padding: 20px;
     background-color: white;
     border: 2px solid red;
     overflow: hidden;
     border-radius: 10%;
     box-shadow: 0 0 50px rgba(54, 54, 54, 0.46);
+    text-align: center;
 }
 
 
@@ -90,23 +94,28 @@
 
 /* image */
 .m-v-container img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
 }
 
-.m-v-container .mission-container img{
-    width: 180px;
-    height: 180px;
-    margin-bottom: 15px;
-}
+
 
 /* text */
 
 .m-v-container .text{
-    padding: 0 50px;
-    font-size: 25px;
+    padding: 0;
+    font-size: 15px;
+
     
+}
+
+.m-v-container .content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75%;
+    margin-top: 0;
 }
 
 @media (max-width:600px){
@@ -131,9 +140,7 @@
     
 }
 
-.m-v-container .mission-container .content-container .text{
-    margin-bottom: 107px;
-}
+
 
 
 

@@ -1,8 +1,9 @@
 import './styles/contact.css'
+import { useState } from 'react';
 
 
 const ContactUs =() =>{
-
+    const [labelPosition, setLabelPosition] = useState({});
 
     return(
         <div className='contact-container'>

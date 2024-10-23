@@ -18,8 +18,9 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    max-width: 800px;
-    padding: 50px 50px;
+    max-width: 700px;
+    height: 500px;
+    padding: 20px 50px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.361);
     background-color: white;
     position: relative;
@@ -31,7 +32,10 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
-    width: 60%;
+    width: 55%;
+    margin-top: 0;
+    margin-bottom: 0;
+   
 }
 
 .contact-container .container-input .title-container h1{
@@ -51,10 +55,13 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 20px;
-    width: 60%;
+    margin-top: 0px;
+    
+
+    width: 55%;
     height: 400px;
-    gap: 5%;
+    
+    gap: 8%;
 }
 
 
@@ -62,13 +69,13 @@
 .contact-container .container-input .form-container .youremail-container,
 .contact-container .container-input .form-container .message-container{
     position: relative;
-    width: 75%;
-    height: 60px;
+    width: 85%;
+    height: 50px;
 }
 
 .contact-container .container-input .form-container .message-container{
     height: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .contact-container .container-input .form-container input,
@@ -86,6 +93,7 @@
     padding-top: 25px;
     padding-bottom: 25px;
     overflow-y: scroll;
+    
 }
 
 
@@ -134,11 +142,11 @@
 /* button */
 .contact-container .container-input .form-container .send-button{
     background-color: rgb(239, 30, 30);
-    height:55px;
-    width: 150px;
+    height:45px;
+    width: 120px;
     color: white;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 16px;
     border: none;
     border-radius: 50px;
     transition: all 0.25s ease-in-out;
@@ -158,8 +166,8 @@
 /* side container */
 .contact-container .container-input .side-container{
     position: absolute;
-    width: 325px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
     background-color: rgb(239, 30, 30);
     left: -12.5%;
     display: flex;

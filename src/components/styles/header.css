@@ -12,7 +12,7 @@ header{
     right: 0;
     height: 75px;
     padding-left: 10%;
- 
+    z-index: 1000;
 }
 
 header .button-holder{
@@ -123,6 +123,7 @@ header .navbar-container .buttons-container .contact a{
     
     header .navbar-container .navBar{
         background-color: white;
+        
         height: 3px;
         width: 40px;
         border-radius: 1.5px;
