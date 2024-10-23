@@ -29,7 +29,7 @@ const Header = () => {
         <header>
             <ul className="button-holder">
                 <li className="home"><Link to='/pnamission/home'>Home</Link></li>
-                <li className="about"><Link to='https://clydeador123545.github.io/pnamission/about'>About us</Link></li>
+                <li className="about"><Link to='/pnamission/about'>About us</Link></li>
                 <li className="contact"><Link to='/pnamission/contact'>Contact us</Link></li>
             </ul>
 
@@ -48,9 +48,9 @@ const Header = () => {
                     
                 >
                     <div className="triangle"></div>
-                    <div className="home"><Link to='/home'>Home</Link></div>
-                    <div className="about"><Link to='/about'>About us</Link></div>
-                    <div className="contact"><Link to='/contact'>Contact us</Link></div>
+                    <div className="home"><Link to='/pnamission/home'>Home</Link></div>
+                    <div className="about"><Link to='/pnamission/about'>About us</Link></div>
+                    <div className="contact"><Link to='/pnamission/contact'>Contact us</Link></div>
                 </div>
             </div>
         </header>

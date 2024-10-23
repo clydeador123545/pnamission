@@ -17,7 +17,7 @@ function App() {
   
   return (
     
-    <Router>
+    <Router basename='/pnamission'>
       <div>
           
 
@@ -25,7 +25,7 @@ function App() {
           
           <Routes>
             <Route path="/pnamission/home" element={<Home />}/>
-            <Route path="https://clydeador123545.github.io/pnamission/about" element={<AboutPage />}/>
+            <Route path="/pnamission/about" element={<AboutPage />}/>
             <Route path="/pnamission" element={<Home/>}/>
             <Route path="/pnamission/contact" element={<ContactUs/>} />
           </Routes>
