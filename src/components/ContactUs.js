@@ -23,8 +23,8 @@ const ContactUs =() =>{
                         <input id='yourEmail' name='yourEmail'/>
                     </div>
                     <div className='message-container'>
-                        <label htmlFor="message" className='message'>Type your message here...</label>
-                        <textarea id='message' name='message'></textarea>
+                        {/* <label htmlFor="message" className='message'>Type your message here...</label> */}
+                        <textarea id='message' name='message' placeholder='Type your message here...'></textarea>
                     </div>
 
                     <button type='submit' className='send-button'>Send</button>

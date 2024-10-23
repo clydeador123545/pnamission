@@ -24,10 +24,10 @@ function App() {
           <Header/>
           
           <Routes>
-            <Route path="/home" element={<Home />}/>
-            <Route path="/about" element={<AboutPage />}/>
+            <Route path="/pnamission/home" element={<Home />}/>
+            <Route path="/pnamission/about" element={<AboutPage />}/>
             <Route path="/pnamission" element={<Home/>}/>
-            <Route path="/contact" element={<ContactUs/>} />
+            <Route path="/pnamission/contact" element={<ContactUs/>} />
           </Routes>
             
         </div>
