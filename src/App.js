@@ -9,8 +9,6 @@ import Home from './components/Home';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer'
 
-
-
 function App() {
 
   

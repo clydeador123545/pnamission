@@ -29,8 +29,20 @@ const ContactUs =() =>{
 
     return(
         <div className='contact-container'>
-            <div className='background-img'></div>
-            <div className='container-input'>
+            <div className='background-img'
+                style={{
+                    backgroundImage: "url('https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/461939781_122140439456318427_3252228636773585824_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHNUYHAT5PXELrSYOjS0PGPvGBDjBJg3A-8YEOMEmDcD2m-5JTDv3d7yUm6Xuno4i2E6VHMqTx3Ax14JQGX9vTc&_nc_ohc=sfK4FHvfPJ4Q7kNvgHl1UTj&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=ANqaaWeQWQ2d8BK04Gj3EVo&oh=00_AYCF8MZhf9pqTFMT37tzie6BiBPM3_ufTbXsUqbOgr-dCg&oe=672037BC')",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "cover",
+                }}
+            ></div>
+            <div className='container-input'
+                style={{
+                    backdropFilter: "blur(10px) opacity(1)",
+                    webkitBackdropFilter: "blur(10px) opacity(1)",
+                }}
+            >
                 
                 <div className='title-container'>
                     <h1>Get in Touch with us</h1>
