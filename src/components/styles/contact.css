@@ -1,5 +1,5 @@
 .contact-container{
-    background-color: rgb(243, 204, 204);
+    background-color: rgba(0, 0, 0, 0.512);
     width: 100%;
     position: absolute;
     top: 0;
@@ -9,7 +9,21 @@
     align-items: center;
     z-index: -100;
     
+}
 
+.contact-container .background-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('https://scontent.fmnl17-1.fna.fbcdn.net/v/t39.30808-6/461939781_122140439456318427_3252228636773585824_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHNUYHAT5PXELrSYOjS0PGPvGBDjBJg3A-8YEOMEmDcD2m-5JTDv3d7yUm6Xuno4i2E6VHMqTx3Ax14JQGX9vTc&_nc_ohc=sfK4FHvfPJ4Q7kNvgHl1UTj&_nc_ht=scontent.fmnl17-1.fna&_nc_gid=ANqaaWeQWQ2d8BK04Gj3EVo&oh=00_AYCF8MZhf9pqTFMT37tzie6BiBPM3_ufTbXsUqbOgr-dCg&oe=672037BC');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    /* filter: blur(5px);
+    opacity: 0.5; */
 }
 
 .contact-container .container-input{
@@ -22,9 +36,14 @@
     height: 500px;
     padding: 20px 50px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.361);
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.143);
     position: relative;
     margin-left: 80px;
+    backdrop-filter: blur(10px) opacity(1);
+    -webkit-backdrop-filter: blur(10px) opacity(1);
+    
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 .contact-container .container-input .title-container{
@@ -40,12 +59,12 @@
 
 .contact-container .container-input .title-container h1{
     font-family: Roboto;
-    color: rgb(2, 2, 170);   
+    color: rgb(251, 238, 0);   
     margin-bottom:0 ;
 }
 
 .contact-container .container-input .title-container p{
-    color: gray;
+    color: rgb(210, 210, 210);
     margin-top: 0;
 
 }
@@ -57,7 +76,6 @@
     justify-content: flex-start;
     margin-top: 0px;
     
-
     width: 55%;
     height: 400px;
     
@@ -104,6 +122,7 @@
     left: 60px;
     color: rgba(128, 128, 128, 0.564);
     font-family: Roboto;
+    font-size: 16px;
 }
 
 .contact-container .container-input .form-container label:hover{
@@ -121,19 +140,106 @@
 
 
 
+
 @media (max-width:600px){
+
+    .contact-container{
+        background-color:white;
+        width: 100%;
+        position: relative;
+        top: unset;
+        padding: 75px 0px;
+        bottom: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index:-100;
+    }
+
     .contact-container .container-input{
-        flex: 1;
+        flex: unset;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
         justify-content: center;
-        width: 100%;
-        padding: 50px 50px;
-        box-shadow: 0 0 50px rgba(0, 0, 0, 0.361);
-        background-color: white;
+        max-width: unset;
+        width: 75%;
+        height:auto;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.311);
         position: relative;
         margin-left: 0;
+        margin-top: 50px;
+        border: 2px solid white;
+    }
+
+    .contact-container .background-img{
+        position: absolute;
+        top: 60px;
+        bottom: unset;
+        height: 30%;
+        left: 0;
+        right: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        opacity: 0.9;
+        
+    }
+
+    .contact-container .container-input .form-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        width:80%;
+        height: 400px;
+        column-gap: 10%;
+        z-index: 0;
+       
+        
+    }
+
+    .contact-container .container-input .title-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        
+    }
+
+    .contact-container .container-input .title-container h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .contact-container .container-input .title-container p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-container .container-input .form-container .yourname-container,
+    .contact-container .container-input .form-container .youremail-container,
+    .contact-container .container-input .form-container .message-container{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        
+    }
+
+    .contact-container .container-input .form-container input,
+    .contact-container .container-input .form-container textarea{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(240, 243, 246);
+        padding-left: unset;
     }
 }
 
@@ -166,7 +272,7 @@
 /* side container */
 .contact-container .container-input .side-container{
     position: absolute;
-    width: 300px;
+    width: 35%;
     height: 400px;
     background-color: rgb(239, 30, 30);
     left: -12.5%;
@@ -185,4 +291,45 @@
 .contact-container .container-input .side-container .informations p{
     color: white;
 
+}
+
+
+
+.contact-container .container-input .side-container img{
+    height: 45%;
+    
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.contact-container .container-input .side-container .informations div p{
+    font-size: 15px;
+}
+
+.contact-container .container-input .side-container .informations div{
+    display: flex;
+    align-items: center;
+    margin: 10% 0;
+    height: 20%;
+}
+
+
+@media (max-width:600px){
+    
+
+    .contact-container .container-input .side-container{
+        position: unset;
+        width: 100%;
+        height: 400px;
+        
+        background-color: rgb(239, 30, 30);
+        left: unset;
+        display: flex;
+        padding: 0;
+        box-shadow: 0 0 30px rgba(7, 7, 7, 0.588);
+    }
+
+    .contact-container .container-input .side-container .informations{
+        
+    }
 }

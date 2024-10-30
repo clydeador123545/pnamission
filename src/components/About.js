@@ -6,6 +6,7 @@ import visionLogo from '../images/vision-logo.png'
 import valuesLogo from '../images/values-logo.png'
 import youth from '../images/youth.png'
 
+
 const About = (() => {
 
     return(
@@ -48,7 +49,7 @@ const About = (() => {
                     <p className="title">MISSION</p>
                     <div className="content-container">
                         <p className="text">
-                            "PNA Misyonero is a group of youth leaders and volunteers of Puso ng Ama Foundation, Inc. serving the Lord Jesus and touched by Him through their experiences in ministry."
+                            PNA Misyonero is a group of youth leaders and volunteers of Puso ng Ama Foundation, Inc. serving the Lord Jesus and touched by Him through their experiences in ministry.
                         </p>
                         <img src={missionLogo}></img>
                     </div>
@@ -79,11 +80,6 @@ const About = (() => {
 
             </div>
 
-            
-            
-            
-
-            
 
             <div className="who-are-we-container">
                 <div className="container">
@@ -97,6 +93,8 @@ const About = (() => {
                 </div>
                 
             </div>
+
+            
             
         </div>
 

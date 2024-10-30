@@ -52,7 +52,10 @@
     overflow: hidden;
     border-radius: 10%;
     box-shadow: 0 0 50px rgba(54, 54, 54, 0.46);
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 
@@ -75,16 +78,22 @@
     .m-v-container .vision-container,
     .m-v-container .values-container{
         flex: unset;
-        margin: 40px 0;
+        margin: 20px 0;
         max-width: 200px;
-        height: 250px;
-      
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2%;
     }
 
-    .title{
-      
-        font-size: 20px;
-        
+    .m-v-container .title{
+        color: red;
+        font-size: 30px;
+        font-family: Roboto;
+        font-weight: bold;
+        margin-bottom: 0;
     }
 }
 
@@ -97,6 +106,7 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
+    
 }
 
 
@@ -106,7 +116,7 @@
 .m-v-container .text{
     padding: 0;
     font-size: 15px;
-
+    text-align: center;
     
 }
 
@@ -114,32 +124,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     height: 75%;
     margin-top: 0;
+    width: 75%;
 }
 
 @media (max-width:600px){
     .m-v-container .text{
         padding: 0 10px;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .m-v-container img{
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         
     }
 
     .m-v-container .mission-container img{
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         margin-bottom: unset;
+        margin-top: 20px;
     }
 
     
     
 }
-
 
 
 

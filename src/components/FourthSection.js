@@ -8,7 +8,13 @@ function FourthSection(){
 
             <div className='fourth-v-txt-container'>
                 <div className='content-container'>
-                    <p className='title'><a target='_blank' href='https://www.facebook.com/profile.php?id=61559552822147'>𝐢𝐌𝐈𝐒𝐘𝐎𝐍𝐄𝐑𝐎</a></p>
+                    <p className='title'>
+                        <a target='_blank' 
+                            href='https://www.facebook.com/profile.php?id=61559552822147'
+                            >𝐢𝐌𝐈𝐒𝐘𝐎𝐍𝐄𝐑𝐎
+                        </a>
+                    </p>
+                    
                     <p className='sub-title'>𝗘𝗽𝗶𝘀𝗼𝗱𝗲 𝟮: 𝗚𝗿𝗼𝘄𝘁𝗵</p>
 
                     <p className='description'>

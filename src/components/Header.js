@@ -17,7 +17,6 @@ const Header = () => {
             }
             
         }
-
         document.addEventListener("mousedown", handler);
     })
    
@@ -59,4 +58,5 @@ const Header = () => {
     );
 }
 
-export default Header;
+const MemoizedHeader = React.memo(Header);
+export default MemoizedHeader;
